@@ -29,12 +29,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fceabb', end
 
 .letra {
     text-align: center;
-    font-size: 1.5em;
-    margin-left: 0.1em;
+    font-size: 1.4em;
+   margin-left: 1em;
 }
 
 .img-header {
-    width: 15%;
+    width: 100%;
+}
+.img-header2 {
+    width: 100%;
 }
 
 .foto-fiesta {
