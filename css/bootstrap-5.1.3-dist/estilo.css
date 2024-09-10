@@ -30,7 +30,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fceabb', end
 .letra {
     text-align: center;
     font-size: 1.4em;
-   margin-left: 1em;
+    margin-left: 1em;
 }
 
 .img-header {
@@ -41,7 +41,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fceabb', end
 }
 
 .foto-fiesta {
-    width: 25%;
+    width: 50%;
 }
 
 .img-pedrito {
@@ -54,6 +54,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fceabb', end
 
 .texto-fiesta {
     font-size: 1.4em;
+    
 }
 
 .btn2 {
@@ -69,4 +70,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fceabb', end
 
 .btn2 a:hover {
     color: white;
+}
+main
+{
+    background-color: rgb(252, 252, 231);
 }
