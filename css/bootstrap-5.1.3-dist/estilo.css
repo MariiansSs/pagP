@@ -36,37 +36,55 @@ main
 .articulo1 {
     position: relative;
     z-index: 1; /* Asegura que el artículo quede por encima del fondo */
-    background-color: rgba(253, 236, 236, 0.8); /* Fondo semitransparente para resaltar el contenido */
+    background-color: rgb(244, 235, 235); /* Fondo semitransparente para resaltar el contenido */
     box-shadow: 10px 2px 5px 3px rgba(0, 0, 0, 0.2); /* Sombreado más suave */
     border-radius: 10px ;  /* Opcional: bordes redondeados */
     width: 90%;
     margin-top: 1em;
 }
-
-.foto-fiesta {
+.foto-fiesta
+{
     width: 50%;
+}
+.foto-fiesta1 {
+    width: 60%;
+    height: 7vh;
+    margin-bottom: 1em;
 }
 
 .img-pedrito {
     width: 70%;
 }
-
+.titulo 
+{
+    font-size: 4em;
+    font-family: 'Dancing Script', cursive;
+    height: 1em;
+}
 .titulo-fiesta {
     font-size: 2em;
+    font-family: "Dancing Script", cursive;
+}
+.subtitulo
+{
+    font-size: 2.5em;
+    font-family: "Dancing Script", cursive;
+    height: 1em;
 }
 
 .texto-fiesta {
-    font-size: 1.4em;
+    font-size: 1.5em;
 }
 
 .btn2 {
-    background-color: rgb(255, 215, 0);
+    background: #333333;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #dd1818, #333333);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #dd1818, #333333)
 }
 
 .btn2 a {
-    color: black;
+    color: rgb(255, 255, 255);
     text-decoration: none;
-    background-color: rgb(255, 215, 0);
     font-size: 1.2em;
 }
 
@@ -82,5 +100,5 @@ main
 
 .img-pedrito {
     margin-top: 2em;
-    width: 70%;
+    width: 100%;
 }
