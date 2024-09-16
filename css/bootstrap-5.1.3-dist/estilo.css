@@ -13,9 +13,15 @@ height: 8vh;
 }
 
 body {
-    background: #333333;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #dd1818, #333333);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #dd1818, #333333); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+     margin: 0;
+    padding: 0;
+    height: 100vh; /* Asegura que el body ocupe toda la ventana */
+    background-image: url(../../img/probando.jpg); /* Cambia por la URL de tu imagen */
+    background-size: cover; /* Hace que la imagen cubra todo el espacio */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-attachment: fixed; /* Hace que la imagen permanezca fija al hacer scroll */
     
 }
 main
@@ -29,7 +35,7 @@ main
 }
 .linea
 {
-    border: 1px solid rgb(1, 0, 0);
+    border: 1px solid rgb(184, 134, 11);
     width: 100%;
     margin-bottom: 1em;
 }
@@ -77,9 +83,7 @@ main
 }
 
 .btn2 {
-    background: #333333;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #dd1818, #333333);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #dd1818, #333333)
+    background-color: rgb(184, 134, 11);
 }
 
 .btn2 a {
@@ -89,7 +93,7 @@ main
 }
 
 .btn2 a:hover {
-    color: white;
+    color: black;
 }
 
 .contenedor-img
@@ -101,4 +105,27 @@ main
 .img-pedrito {
     margin-top: 2em;
     width: 100%;
+}
+.titulo-contador {
+    padding: 0.5em;
+    font-size: 2em;
+    color: rgb(115, 112, 112);
+}
+
+.contador {
+    padding: 0.3em;
+
+}
+
+.contador-num {
+    font-size: 2em;
+}
+
+.contador-letra {
+    font-size: 1em;
+    margin-top: 1em;
+}
+
+.contador-puntos {
+    font-size: 2em;
 }
